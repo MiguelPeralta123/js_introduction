@@ -1,11 +1,13 @@
 
 // Function declararation
+// We can call the function before create it
+sum()
 function sum() {
     console.log(10 + 10)
 }
-sum()
 
 // Function expression
+// The function must be created before call it
 const sub = function() {
     console.log(10 - 5)
 }
@@ -21,3 +23,7 @@ console.log(myName)
 
 // If I declare the variable inside an IIFE function, it won´t be accessible from here
 console.log(myLastName)
+
+// METHODS AND FUNCTIONS
+// Methods are part of an object, for example console.log()
+// Functions don´t need an object, like parseInt(num)
